@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class AgressiveCows {
     public static void main(String[] args) {
-        int []stall={1,2,8,4,9};
+        int []stall={1,10,11,12,13};
         int noc=3;
         Arrays.sort(stall);
         System.out.println(largest_min(stall,noc));
