@@ -30,8 +30,6 @@ public class Finding_CBno {
         }
         return true;
     }
-
-
     public static boolean IsCBNo(long num) {
 
         int[] arr={2,3,5,7,11,13,17,23,19,29};
