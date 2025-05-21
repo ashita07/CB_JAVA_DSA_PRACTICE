@@ -12,7 +12,7 @@ public class Letter_Combination_of_a_PhoneNumber {
     }
     public static void String_Combination(String ques,String ans,List<String> ll){
 
-        if(ques.length()==0) {
+        if(ques.isEmpty()) {
             ll.add(ans);
             return;
         }
