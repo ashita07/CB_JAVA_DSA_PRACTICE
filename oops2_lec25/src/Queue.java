@@ -1,6 +1,6 @@
 public class Queue {
-    private int[] arr;
-    private int front=0;
+    protected int[] arr;
+    protected int front=0;
     int size=0;
 //    int rear=0;
     public Queue(){
